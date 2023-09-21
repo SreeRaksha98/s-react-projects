@@ -1,0 +1,17 @@
+.heading-tag{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.select-css{
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+    margin: 1rem;
+    justify-content: center;
+}
+
+.select-css select{
+    margin: 1rem;
+}

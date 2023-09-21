@@ -9,6 +9,8 @@ import darkMode from "../../images/darkmode.webp"
 import weather from "../../images/weather.jpg"
 import slider from "../../images/slider.avif"
 import register from "../../images/registerform.jpg"
+import todo from "../../images/todo.jpeg"
+import blog from "../../images/blog.jpg"
 
 const IndexPage = () => {
     return (
@@ -55,7 +57,7 @@ const IndexPage = () => {
                 {/* ---------------------------------card -4 */}
                 <CardComponent
                     name="weather forecasting"
-                    desc="By providing city name we can get to know the weather of that particular city"
+                    desc="(API example - 1) By providing city name we can get to know the weather of that particular city"
                     tech="HTML, CSS, JS, React"
                     link="/weather-component"
                     imageSrc={weather}
@@ -70,13 +72,22 @@ const IndexPage = () => {
                     imageSrc={slider}
                 />
 
-                {/* ---------------------------------card -5 */}
+                {/* ---------------------------------card -6 */}
                 <CardComponent
                     name="registration form"
                     desc="registration form"
                     tech="HTML, CSS, JS, React"
                     link="/register-component"
                     imageSrc={register}
+                />
+
+                {/* ---------------------------------card -7 */}
+                <CardComponent
+                    name="ToDo Task"
+                    desc="(API example - 2) ToDo Task"
+                    tech="HTML, CSS, JS, React"
+                    link="/todo-component"
+                    imageSrc={todo}
                 />
             </div>
         </div>

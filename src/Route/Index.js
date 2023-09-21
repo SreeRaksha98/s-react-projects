@@ -12,6 +12,7 @@ import DarkModeComponent from "../Page/DarkModeComponent/index"
 import WeatherForecastingComponent from "../Page/WeatherForecastingComponent";
 import SliderComponent from "../Page/SliderComponent";
 import RegisterComponent from "../Page/RegisterComponent";
+import ToDoComponent from "../Page/ToDoComponent";
 
 const RouteComponent = () => {
     const [navVis, setNavVis] = useState()
@@ -89,6 +90,7 @@ const RouteComponent = () => {
                     <Route path="/weather-component" element={<WeatherForecastingComponent />} />
                     <Route path="/slider-component" element={<SliderComponent />} />
                     <Route path="/register-component" element={<RegisterComponent />} />
+                    <Route path="/todo-component" element={<ToDoComponent />} />
                 </Routes>
             </div>
         </Router>
