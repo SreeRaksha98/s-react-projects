@@ -3,7 +3,6 @@ import CardComponent from "./cardComponent"
 import {
     fuel,
     subString,
-    collapsibleComponent,
     darkMode,
     weather,
     slider,
@@ -11,45 +10,56 @@ import {
     todo,
     blog,
     travel,
+    expandableComponent,
+    AddToKart,
 } from "./ImagesImport";
 import "./style.css"
 
 const IndexPage = () => {
     return (
-        <div className="md:mx-20 py-4 text-xl	">Please find my project links below.,
+        <div className="md:mx-20 py-4 text-xl">Please find my project links below.,
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-10 my-3 md:grid-cols-3 lg:groid-col-3 ">
                 {/* -------------------------------------------------------------------------Cards */}
-                {/* ---------------------------------card -3 */}
+                {/* ---------------------------------card -1 */}
                 <CardComponent
-                    name="Kannada Movie Briefing"
-                    desc="Simple task which includes the concept of collapsible component"
-                    tech="HTML, CSS, JS, React"
-                    link="/movie-time"
-                    imageSrc={collapsibleComponent}
-                />
-
-                {/* ---------------------------------card -4 */}
-                <CardComponent
-                    name="weather forecasting"
-                    desc="(API example - 1) By providing city name we can get to know the weather of that particular city"
-                    tech="HTML, CSS, JS, React"
-                    link="/weather-component"
-                    imageSrc={weather}
-                />
-
-                {/* ---------------------------------card -5 */}
-                <CardComponent
-                    name="sliding window"
-                    desc="sliding component"
+                    name="Sliding Window"
+                    desc="sliding window concept can be applied to efficiently render and manage a fixed number of items in a dynamic list"
                     tech="HTML, CSS, JS, React"
                     link="/slider-component"
                     imageSrc={slider}
                 />
 
+                {/* ---------------------------------card -2 */}
+                <CardComponent
+                    name="Add To Kart"
+                    desc="This concept mimics the real-world shopping experience of physically adding items to a cart. examples: Shopping Cart, Checkout, Adding items, Selection."
+                    tech="HTML, CSS, JS, React"
+                    link="/AddToKart"
+                    imageSrc={AddToKart}
+                />
+
+                {/* ---------------------------------card -8 */}
+                <CardComponent
+                    name="Post task"
+                    desc="(API example - 3) ToDo Task"
+                    tech="HTML, CSS, JS, React"
+                    link="/posts"
+                    imageSrc={blog}
+                />
+
+                {/* ---------------------------------card -3 */}
+                <CardComponent
+                    name="Collapsible Component"
+                    desc="A UI which has the concept of hide or show the content. this can be used in creating Menus, FAQs, Panels and so on."
+                    tech="HTML, CSS, JS, React"
+                    link="/movie-time"
+                    imageSrc={expandableComponent}
+                />
+
                 {/* ---------------------------------card -6 */}
                 <CardComponent
-                    name="registration form"
-                    desc="registration form"
+                    name="Registration Form"
+                    desc="State is used to manage and store dynamic information that can change over time as a result of user interactions or other events. examples: registraion form, increment / decrement."
                     tech="HTML, CSS, JS, React"
                     link="/register-component"
                     imageSrc={register}
@@ -64,38 +74,37 @@ const IndexPage = () => {
                     imageSrc={todo}
                 />
 
-                {/* ---------------------------------card -8 */}
+                {/* ---------------------------------card -1 */}
                 <CardComponent
-                    name="Post task"
-                    desc="(API example - 3) ToDo Task"
+                    name="Circular tour Algorithm"
+                    desc="This Algorithm is a computational problem used to find a starting point in a circular route that allows a vehicle to visit all gas stations along the route without running out of fuel. example: road trips."
                     tech="HTML, CSS, JS, React"
-                    link="/posts"
-                    imageSrc={blog}
+                    link="/petrol-pump"
+                    imageSrc={fuel}
+                />
+                
+                {/* ---------------------------------card -4 */}
+                <CardComponent
+                    name="Weather forecasting"
+                    desc="A simple React task which includes the concept of fetch API for making network request from the web server and display the weather of that particular city which user provides as an input."
+                    tech="HTML, CSS, JS, React"
+                    link="/weather-component"
+                    imageSrc={weather}
                 />
 
-                {/* ---------------------------------card -8 */}
+                {/* ---------------------------------card -9 */}
                 <CardComponent
-                    name="mysore hotel"
-                    desc="ToDo Task"
+                    name="Mysore Hotel Guide"
+                    desc="This task is based on Routing that involves directing user requests to the appropriate page within a web application. examples: URL Mapping, Navigation, Nested Routing, Single-Page Applications (SPAs)"
                     tech="HTML, CSS, JS, React"
                     link="/travel-component"
                     imageSrc={travel}
                 />
 
-                {/* ---------------------------------card -1 */}
-                <CardComponent
-                    name="Circular tour Algorithm"
-                    desc="A circular tour to visit all the petrol pumps."
-                    tech="HTML, CSS, JS, React"
-                    link="/petrol-pump"
-                    imageSrc={fuel}
-                />
-
-
                 {/* ---------------------------------card -2 */}
                 <CardComponent
                     name="Finding the substring "
-                    desc="Susbstring of a string without using default methods."
+                    desc="Substrings are used to extract and work with parts of a larger text or data. examples: Text Processing and Manipulation, Data Extraction and Parsing."
                     tech="HTML, CSS, JS, React"
                     link="/sub-string"
                     imageSrc={subString}
@@ -104,12 +113,11 @@ const IndexPage = () => {
                 {/* ---------------------------------card -4 */}
                 <CardComponent
                     name="Login Page"
-                    desc="The task which includes the concept of toggle button"
+                    desc="Dark mode and light mode are user interface themes in which they can switch between these modes based on their preferences, such as using dark mode in low-light situations to reduce eye strain."
                     tech="HTML, CSS, JS, React"
                     link="/dark-mode"
                     imageSrc={darkMode}
                 />
-
             </div>
         </div>
     )

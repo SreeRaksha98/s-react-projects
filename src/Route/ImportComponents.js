@@ -14,3 +14,4 @@ export { default as Home } from "../Page/TravelComponent/Components/Home";
 export { default as VegHotels } from "../Page/TravelComponent/Components/VegHotels";
 export { default as NonVegHotels } from "../Page/TravelComponent/Components/NonVegHotels";
 export { default as HotelsAndSPA } from "../Page/TravelComponent/Components/VegHotels";
+export { default as AddToKart } from "../Page/AddToKart/index"

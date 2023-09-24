@@ -16,6 +16,7 @@ import {
     Home,
     HotelsAndSPA,
     NonVegHotels,
+    AddToKart,
 } from "./ImportComponents";
 
 import "./routeStyle.css"
@@ -51,6 +52,7 @@ const RouteComponent = () => {
                     <Route path="/travel-component" element={<Home />} />
                     <Route path="/travel-component/VegHotels" element={<HotelsAndSPA />} />
                     <Route path="/travel-component/NonVegHotels" element={<NonVegHotels />} />
+                    <Route path="/AddToKart" element = {<AddToKart />} />
                 </Routes>
             </div>
         </Router>
