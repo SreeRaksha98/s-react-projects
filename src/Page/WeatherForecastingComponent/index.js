@@ -29,6 +29,7 @@ const WeatherForecastingComponent = () => {
                 <input
                     type="text"
                     name="city"
+                    placeholder="city name"
                     onChange={e => setCity(e.target.value)}>
                 </input>
 

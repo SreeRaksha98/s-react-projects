@@ -18,7 +18,7 @@ class Home extends React.Component {
                   <path d="M44.3,25L32.6,10.5c-0.5-0.6-1.4-0.8-2.1-0.2l-2.3,1.9c-0.7,0.5-0.8,1.5-0.2,2.1L37.5,26L28,37.8c-0.5,0.6-0.4,1.6,0.2,2.1l2.3,1.9c0.7,0.5,1.5,0.4,2.1-0.2L44.3,27C44.7,26.2,44.7,25.5,44.3,25z" />
                 </svg></button><span></span></div>
               </nav>
-              <div className="p-4">
+              <div className="md:p-4">
                 <div className="welcome">
                   <div className="content rounded-3 p-3">
                     <h1 className="fs-3">Welcome to Mysore Dairies</h1>

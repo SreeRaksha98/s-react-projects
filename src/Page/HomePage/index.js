@@ -16,7 +16,7 @@ import "./style.css"
 
 const IndexPage = () => {
     return (
-        <div className="mx-20 py-4 text-xl	">Please find my project links below.,
+        <div className="md:mx-20 py-4 text-xl	">Please find my project links below.,
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-10 my-3 md:grid-cols-3 lg:groid-col-3 ">
                 {/* -------------------------------------------------------------------------Cards */}
                 {/* ---------------------------------card -3 */}

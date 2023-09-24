@@ -46,7 +46,7 @@ const PetrolPumpComponent = () => {
     }
 
     return (
-        <div className="mx-20">
+        <div className="md:mx-20 py-4">
             <h1 className="text-center">Circular tour to visit all the petrol pumps</h1>
             <div className="py-10">
                 <GraphComponent />

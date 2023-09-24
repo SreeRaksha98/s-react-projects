@@ -8,7 +8,7 @@
   }
   .top-container {
     display: grid;
-    grid-template-columns: 2fr 9fr;
+    grid-template-columns: 3fr 7fr;
   }
   .p-4 {
     padding: 1rem;
@@ -80,6 +80,9 @@
     padding: 20px;
   }
   
+  .navbar .logo {
+    display: none;
+  }
   .statistics .box i {
     font-size: 2rem;
     width: 60px;
@@ -110,18 +113,12 @@
       box-shadow: 0 0 2px 0px black;
       cursor: pointer;
     }
-    .navbar .logo {
-      display:flex;
-    } 
     .logo span {
       margin: auto 1rem;
     }
     .main-container {
       display: flex;
       width: 100%;
-    }
-    .sidebar {
-      display: none;
     }
   
     #wrapper {
@@ -287,19 +284,8 @@
   
   /* Responsive CSS Code */
   @media  all and (max-width: 1500px) {
-      body{
-          width: auto;
-          max-width: none;
-          transition: 0.3s ease;
-      }
-      
   }
   @media all  and (max-width: 658px) {
-      body{
-          padding: 20px;
-          transition: 0.4s;
-          margin: auto;
-      }
       #card-2{
           border-bottom-left-radius: 0px;
           grid-column-end: 3;
@@ -327,5 +313,9 @@
           font-size: 14px;
           line-height: 2;
           transition: 0.3s;
+      }
+
+      .top-container{
+        grid-template-columns: 1fr;
       }
   }

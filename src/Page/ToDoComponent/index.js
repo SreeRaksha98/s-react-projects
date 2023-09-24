@@ -86,7 +86,7 @@ const ToDoComponent = () => {
                 </div>
             </div>
             {/* <-----------------------------------------to display> */}
-            <div className="display-container">
+            <div className="display-container flex overflow-x-scroll">
                 <DisplayComponent filteredToDo={filteredToDo} userData={userData} />
             </div>
         </div>
