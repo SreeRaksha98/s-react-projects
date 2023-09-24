@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 const CardComponent = ({ name, desc, link, imageSrc, tech }) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <Link className="item" to={link}>
+      <Link to={link}>
         <img className="rounded-t-lg project-img" src={imageSrc} alt="" />
       </Link>
       <div className="p-5">
-        <Link className="item" to={link}>
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
+        <Link to={link}>
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white self-start">{name}</h5>
         </Link>
         <p className="mb-3 font-normal text-gray-600 dark:text-gray-400 rounded-lg">{desc}</p>
         <p className="mb-3 font-light	text-sm text-gray-400 dark:text-gray-400 rounded-lg italic">{tech}</p>
