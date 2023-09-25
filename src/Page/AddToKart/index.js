@@ -78,7 +78,7 @@ const AddToKart = () => {
                                     <tr>
                                         <td className="px-6 py-3 text-center">{product.name} </td>
                                         <td className="px-6 py-3 text-center">{product.quantity} </td>
-                                        <td className="px-6 py-3 text-center">{product.price * product.quantity}</td>
+                                        <td className="px-6 py-3 text-center">{product.price * product.quantity} /-</td>
                                     </tr>)}
                             </tbody>
                         </table>
