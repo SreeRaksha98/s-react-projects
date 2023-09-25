@@ -1,0 +1,11 @@
+.main-container-shoppingkart {
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+.list-addToKart{
+    padding: 1rem;
+    border: none;
+    background-color: #E1F5FE;
+    border-radius: 10px;
+}
