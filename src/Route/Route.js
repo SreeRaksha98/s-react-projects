@@ -8,7 +8,6 @@ import {
     CollapsableComponent,
     DarkModeComponent,
     WeatherForecastingComponent,
-    SliderComponent,
     RegisterComponent,
     ToDoComponent,
     PostsComponent,
@@ -17,6 +16,7 @@ import {
     HotelsAndSPA,
     NonVegHotels,
     AddToKart,
+    SlidingWindow
 } from "./ImportComponents";
 
 import "./routeStyle.css"
@@ -44,7 +44,6 @@ const RouteComponent = () => {
                     <Route path="/movie-time" element={<CollapsableComponent />} />
                     <Route path="/dark-mode" element={<DarkModeComponent />} />
                     <Route path="/weather-component" element={<WeatherForecastingComponent />} />
-                    <Route path="/slider-component" element={<SliderComponent />} />
                     <Route path="/register-component" element={<RegisterComponent />} />
                     <Route path="/todo-component" element={<ToDoComponent />} />
                     <Route path="/posts" element={<PostsComponent />} />
@@ -53,6 +52,7 @@ const RouteComponent = () => {
                     <Route path="/travel-component/VegHotels" element={<HotelsAndSPA />} />
                     <Route path="/travel-component/NonVegHotels" element={<NonVegHotels />} />
                     <Route path="/AddToKart" element = {<AddToKart />} />
+                    <Route path="/sliding-window" element = {<SlidingWindow />} />
                 </Routes>
             </div>
         </Router>

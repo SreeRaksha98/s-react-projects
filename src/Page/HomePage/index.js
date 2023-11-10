@@ -20,13 +20,13 @@ const IndexPage = () => {
         <div className="md:mx-20 py-4 text-xl">
             <div className="px-4 md:px-0">Please find my project links below.,</div>
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-10 my-3 md:grid-cols-3 px-4 md:px-0 lg:groid-col-3 justify-items-center ">
-                {/* -------------------------------------------------------------------------Cards */}
+
                 {/* ---------------------------------card -1 */}
                 <CardComponent
                     name="Sliding Window"
                     desc="sliding window concept can be applied to efficiently render and manage a fixed number of items in a dynamic list"
                     tech="HTML, CSS, JS, React"
-                    link="/slider-component"
+                    link="/sliding-window"
                     imageSrc={slider}
                 />
 
@@ -83,7 +83,7 @@ const IndexPage = () => {
                     link="/petrol-pump"
                     imageSrc={fuel}
                 />
-                
+
                 {/* ---------------------------------card -4 */}
                 <CardComponent
                     name="Weather forecasting"

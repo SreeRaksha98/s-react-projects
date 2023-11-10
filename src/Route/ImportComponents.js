@@ -5,7 +5,6 @@ export { default as SubString } from "../Page/SubString";
 export { default as CollapsableComponent } from "../Page/CollapsableComponent";
 export { default as DarkModeComponent } from "../Page/DarkModeComponent/index";
 export { default as WeatherForecastingComponent } from "../Page/WeatherForecastingComponent";
-export { default as SliderComponent } from "../Page/SliderComponent";
 export { default as RegisterComponent } from "../Page/RegisterComponent";
 export { default as ToDoComponent } from "../Page/ToDoComponent";
 export { default as PostsComponent } from "../Page/PostsComponent";
@@ -15,3 +14,4 @@ export { default as VegHotels } from "../Page/TravelComponent/Components/VegHote
 export { default as NonVegHotels } from "../Page/TravelComponent/Components/NonVegHotels";
 export { default as HotelsAndSPA } from "../Page/TravelComponent/Components/VegHotels";
 export { default as AddToKart } from "../Page/AddToKart/index"
+export { default as SlidingWindow} from "../Page/SlidingWindow/index"
