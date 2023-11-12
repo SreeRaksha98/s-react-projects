@@ -23,7 +23,7 @@ const Post = props => {
 
     useEffect(() => {
         getBodyFromURL()
-
+        RandomDateGenerator()
     }, [])
 
     useEffect(() => {
@@ -40,8 +40,9 @@ const Post = props => {
           const month = getRandomInt(1, 12);
           const day = getRandomInt(1, 28); // Adjust the maximum day based on the month
       
-          return setRandomDates( new Date(year, month - 1, day)); // Month in JavaScript Date object is zero-based
+          return setRandomDates( new Date(year, month - 1, day).toDateString()); // Month in JavaScript Date object is zero-based
         };
+        getRandomDate()
     }
 
     return (
@@ -56,7 +57,7 @@ const Post = props => {
                     <article class="flex max-w-xl flex-col items-start justify-between">
                         <div class="flex items-center gap-x-4 text-xs">
                             <time dateTime="2020-03-16" class="text-gray-500">{randomDates}</time>
-                            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{userData.department}</a>
+                            <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">{userData?.company?.department}</a>
                         </div>
                         <div class="group relative">
                             <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
@@ -77,7 +78,7 @@ const Post = props => {
                                             {userData.firstName} {userData.lastName}
                                         </a>
                                     </p>
-                                    <p class="text-gray-600">{userData.title}</p>
+                                    <p class="text-gray-600">{userData?.company?.title}</p>
                                 </div>
                         </div>
                     </article>

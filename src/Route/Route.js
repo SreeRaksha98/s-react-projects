@@ -20,6 +20,7 @@ import {
 } from "./ImportComponents";
 
 import "./routeStyle.css"
+import Upshift from "../Page/UpShift/Upshift.js";
 
 /*
 * ImportComponent: where all the projects files are exported.
@@ -53,6 +54,7 @@ const RouteComponent = () => {
                     <Route path="/travel-component/NonVegHotels" element={<NonVegHotels />} />
                     <Route path="/AddToKart" element = {<AddToKart />} />
                     <Route path="/sliding-window" element = {<SlidingWindow />} />
+                    <Route path="/up-shift" element = {<Upshift />} />
                 </Routes>
             </div>
         </Router>
