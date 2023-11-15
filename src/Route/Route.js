@@ -21,7 +21,8 @@ import {
 
 import "./routeStyle.css"
 import Upshift from "../Page/UpShift/Upshift.js";
-
+import ContextHome from "../Context/Components/Home.js";
+import ContextCart from "../Context/Components/Cart.js"
 /*
 * ImportComponent: where all the projects files are exported.
 * <Route />
@@ -55,6 +56,8 @@ const RouteComponent = () => {
                     <Route path="/AddToKart" element = {<AddToKart />} />
                     <Route path="/sliding-window" element = {<SlidingWindow />} />
                     <Route path="/up-shift" element = {<Upshift />} />
+                    <Route path="/context-api" element = {<ContextHome />}/>
+                    <Route path="/context-api/cart" element = {<ContextCart/>} />
                 </Routes>
             </div>
         </Router>

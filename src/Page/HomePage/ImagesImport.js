@@ -9,3 +9,4 @@ export { default as blog } from "../../images/blog.jpg";
 export { default as travel } from "../../images/hotels.png";
 export {default as expandableComponent} from "../../images/expandableComponent.png"
 export { default as AddToKart} from "../../images/addtocart.jpg"
+export {default as AddToKart1} from "../../images/addtocart1.jpg"

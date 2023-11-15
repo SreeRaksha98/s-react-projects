@@ -12,6 +12,7 @@ import {
     travel,
     expandableComponent,
     AddToKart,
+    AddToKart1
 } from "./ImagesImport";
 import "./style.css"
 
@@ -41,7 +42,16 @@ const IndexPage = () => {
 
                 {/* ---------------------------------card -8 */}
                 <CardComponent
-                    name="Post task"
+                    name="Add To Kart"
+                    desc="(ContextAPI concept)"
+                    tech="HTML, CSS, JS, React"
+                    link="/context-api"
+                    imageSrc={AddToKart1}
+                />
+
+                {/* ---------------------------------card -8 */}
+                <CardComponent
+                    name="Blog task"
                     desc="(API example - 3) ToDo Task"
                     tech="HTML, CSS, JS, React"
                     link="/posts"

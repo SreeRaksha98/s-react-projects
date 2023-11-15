@@ -4,6 +4,7 @@ import Route from './Route/Route';
 import reportWebVitals from './reportWebVitals';
 import { Toaster } from 'react-hot-toast';
 import './styles/index.css'
+import Context from './Context/Context';
 
 /*
  * index page where the project renders first. 
@@ -15,9 +16,11 @@ import './styles/index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Context >
     <Route />
     <Toaster 
       reverseOrder={false}/>
+      </Context>
   </React.StrictMode>
 );
 
