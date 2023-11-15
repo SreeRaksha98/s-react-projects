@@ -18,7 +18,6 @@ const AddToKart = () => {
     ]
 
     const [kart, setKart] = useState([])
-    const [counter, setCounter] = useState()
 
     const handleAddToKart = (item, event) => {
         item.quantity = 1

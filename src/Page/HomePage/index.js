@@ -34,7 +34,7 @@ const IndexPage = () => {
                 {/* ---------------------------------card -2 */}
                 <CardComponent
                     name="Add To Kart"
-                    desc="This concept mimics the real-world shopping experience of physically adding items to a cart. examples: Shopping Cart, Checkout, Adding items, Selection."
+                    desc="This task includes Shopping Cart, Checkout, Adding items and displaying selected items which is implemented with the help of simple useState hook."
                     tech="HTML, CSS, JS, React"
                     link="/AddToKart"
                     imageSrc={AddToKart}
@@ -43,7 +43,7 @@ const IndexPage = () => {
                 {/* ---------------------------------card -8 */}
                 <CardComponent
                     name="Add To Kart"
-                    desc="(ContextAPI concept)"
+                    desc="(ContextAPI concept) This task includes the concept of context API and useContext() to depict the AddToKart in ecommerce website"
                     tech="HTML, CSS, JS, React"
                     link="/context-api"
                     imageSrc={AddToKart1}
@@ -52,7 +52,7 @@ const IndexPage = () => {
                 {/* ---------------------------------card -8 */}
                 <CardComponent
                     name="Blog task"
-                    desc="(API example - 3) ToDo Task"
+                    desc="(API example - 1) Blogs can cover a wide range of topics and serve various purposes. In this task i have used the concept of fetch"
                     tech="HTML, CSS, JS, React"
                     link="/posts"
                     imageSrc={blog}
@@ -79,7 +79,7 @@ const IndexPage = () => {
                 {/* ---------------------------------card -7 */}
                 <CardComponent
                     name="ToDo Task"
-                    desc="(API example - 2) ToDo Task"
+                    desc="(API example - 2) This task display the to-dos which are completed by employees of the company. In this task i have used the concept of fetch"
                     tech="HTML, CSS, JS, React"
                     link="/todo-component"
                     imageSrc={todo}
