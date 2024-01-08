@@ -40,7 +40,7 @@ const IndexPage = () => {
                     imageSrc={AddToKart}
                 />
 
-                {/* ---------------------------------card -8 */}
+                {/* ---------------------------------card -3 */}
                 <CardComponent
                     name="Add To Kart"
                     desc="(ContextAPI concept) This task includes the concept of context API and useContext() to depict the AddToKart in ecommerce website"
@@ -49,7 +49,7 @@ const IndexPage = () => {
                     imageSrc={AddToKart1}
                 />
 
-                {/* ---------------------------------card -8 */}
+                {/* ---------------------------------card -4 */}
                 <CardComponent
                     name="Blog task"
                     desc="(API example - 1) Blogs can cover a wide range of topics and serve various purposes. In this task i have used the concept of fetch"
@@ -58,7 +58,7 @@ const IndexPage = () => {
                     imageSrc={blog}
                 />
 
-                {/* ---------------------------------card -3 */}
+                {/* ---------------------------------card -5 */}
                 <CardComponent
                     name="Collapsible Component"
                     desc="A UI which has the concept of hide or show the content. this can be used in creating Menus, FAQs, Panels and so on."
@@ -85,7 +85,7 @@ const IndexPage = () => {
                     imageSrc={todo}
                 />
 
-                {/* ---------------------------------card -1 */}
+                {/* ---------------------------------card -8 */}
                 <CardComponent
                     name="Circular tour Algorithm"
                     desc="This Algorithm is a computational problem used to find a starting point in a circular route that allows a vehicle to visit all gas stations along the route without running out of fuel. example: road trips."
@@ -94,7 +94,7 @@ const IndexPage = () => {
                     imageSrc={fuel}
                 />
 
-                {/* ---------------------------------card -4 */}
+                {/* ---------------------------------card -9 */}
                 <CardComponent
                     name="Weather forecasting"
                     desc="A simple React task which includes the concept of fetch API for making network request from the web server and display the weather of that particular city which user provides as an input."
@@ -103,7 +103,7 @@ const IndexPage = () => {
                     imageSrc={weather}
                 />
 
-                {/* ---------------------------------card -9 */}
+                {/* ---------------------------------card -10 */}
                 <CardComponent
                     name="Mysore Hotel Guide"
                     desc="This task is based on Routing that involves directing user requests to the appropriate page within a web application. examples: URL Mapping, Navigation, Nested Routing, Single-Page Applications (SPAs)"
@@ -112,7 +112,7 @@ const IndexPage = () => {
                     imageSrc={travel}
                 />
 
-                {/* ---------------------------------card -2 */}
+                {/* ---------------------------------card -11 */}
                 <CardComponent
                     name="Finding the substring "
                     desc="Substrings are used to extract and work with parts of a larger text or data. examples: Text Processing and Manipulation, Data Extraction and Parsing."
@@ -121,7 +121,7 @@ const IndexPage = () => {
                     imageSrc={subString}
                 />
 
-                {/* ---------------------------------card -4 */}
+                {/* ---------------------------------card -12 */}
                 <CardComponent
                     name="Login Page"
                     desc="Dark mode and light mode are user interface themes in which they can switch between these modes based on their preferences, such as using dark mode in low-light situations to reduce eye strain."

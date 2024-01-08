@@ -1,5 +1,6 @@
 import "../DarkModeComponent/index.css"
 import React from "react";
+import toast from 'react-hot-toast';
 
 class DarkModeComponent extends React.Component {
     constructor() {
@@ -19,6 +20,11 @@ class DarkModeComponent extends React.Component {
         }
     }
 
+    componentDidUpdate() {
+        if (this.state.isDarkMode) {
+            toast.success('Darkmode Activated..')
+        }
+    }
 
     handleChange = (event) => {
         if (document?.body) {
@@ -42,9 +48,9 @@ class DarkModeComponent extends React.Component {
         return (
             <div className="dark-mode-container">
                 <div className="dark-mode-toggle-container">
-                <label class="dark-mode-switch">
+                <label className="dark-mode-switch">
                     <input type="checkbox"  onChange={this.handleChange} defaultChecked={this.state.isDarkMode}/>
-                        <span class="dark-mode-slider"></span>
+                        <span className="dark-mode-slider"></span>
                 </label>
                 </div>
 

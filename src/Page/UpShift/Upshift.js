@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useCallback, useEffect, useState} from 'react'
 import ChildComp from './ChildComp'
 
 const Upshift = () => {
@@ -6,6 +6,16 @@ const Upshift = () => {
     const handleClick = (count)=>{
         setCounter(count)
     }
+
+    const handleHandle = useCallback(() => {
+        console.log('count', counter)
+        setCounter(0)
+    }, [setCounter])
+
+    useEffect(() => {
+        handleHandle()
+    }, [handleHandle])
+
   return (
     <div>
         <div className='counter'>
