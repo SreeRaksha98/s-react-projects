@@ -12,7 +12,9 @@ import {
     travel,
     expandableComponent,
     AddToKart,
-    AddToKart1
+    AddToKart1,
+    IncDec,
+    sliders
 } from "./ImagesImport";
 import "./style.css"
 
@@ -28,7 +30,7 @@ const IndexPage = () => {
                     desc="sliding window concept can be applied to efficiently render and manage a fixed number of items in a dynamic list"
                     tech="HTML, CSS, JS, React"
                     link="/sliding-window"
-                    imageSrc={slider}
+                    imageSrc={sliders}
                 />
 
                 {/* ---------------------------------card -2 */}
@@ -128,6 +130,24 @@ const IndexPage = () => {
                     tech="HTML, CSS, JS, React"
                     link="/dark-mode"
                     imageSrc={darkMode}
+                />
+
+                {/* ---------------------------------card -13 */}
+                <CardComponent
+                    name="Incremeter Decrementer"
+                    desc=""
+                    tech="HTML, CSS, JS, React"
+                    link="/inc-dec"
+                    imageSrc={IncDec}
+                />
+
+                {/* ---------------------------------card -14 */}
+                <CardComponent
+                    name="Slider"
+                    desc=""
+                    tech="HTML, CSS, JS, React"
+                    link="/slider"
+                    imageSrc={slider}
                 />
             </div>
         </div>

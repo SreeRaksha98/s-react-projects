@@ -16,7 +16,9 @@ import {
     HotelsAndSPA,
     NonVegHotels,
     AddToKart,
-    SlidingWindow
+    SlidingWindow,
+    IncDecComponent,
+    SliderComponent
 } from "./ImportComponents";
 
 import "./routeStyle.css"
@@ -58,6 +60,8 @@ const RouteComponent = () => {
                     <Route path="/up-shift" element = {<Upshift />} />
                     <Route path="/context-api" element = {<ContextHome />}/>
                     <Route path="/context-api/cart" element = {<ContextCart/>} />
+                    <Route path="/inc-dec" element = {<IncDecComponent/>} />
+                    <Route path="/slider" element = {<SliderComponent/>} />
                 </Routes>
             </div>
         </Router>

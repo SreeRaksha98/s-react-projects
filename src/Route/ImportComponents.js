@@ -15,3 +15,5 @@ export { default as NonVegHotels } from "../Page/TravelComponent/Components/NonV
 export { default as HotelsAndSPA } from "../Page/TravelComponent/Components/VegHotels";
 export { default as AddToKart } from "../Page/AddToKart/index"
 export { default as SlidingWindow} from "../Page/SlidingWindow/index"
+export { default as IncDecComponent} from "../Page/IncDecComponent/index"
+export {default as SliderComponent} from "../Page/SliderComponent/index"

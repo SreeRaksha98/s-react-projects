@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./index.css"
+
 /**
  * item - {} entire object such as id, name & price - of each iteration
  * kart - empty [] initially / 
