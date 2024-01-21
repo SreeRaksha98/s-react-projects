@@ -7,7 +7,8 @@ class SliderComponent extends React.Component{
         this.state = {active : 0,  
             slider_items : [1,2,3], 
             current_color : 'red', 
-            available_colors : ['red', 'green', 'blue']}
+            available_colors : ['red', 'green', 'blue']
+        }
         this.handleClickRight = this.handleClickRight.bind(this)
     }
 

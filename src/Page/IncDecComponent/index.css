@@ -1,0 +1,19 @@
+.btn-div{
+    display: flex;
+}
+
+.btn{
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+
+.input-counter{
+    padding: 1rem;
+    display: flex;
+}
+
+.input-counter input{
+    border : 2px solid black;
+}
