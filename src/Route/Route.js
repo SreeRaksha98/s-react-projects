@@ -18,7 +18,8 @@ import {
     AddToKart,
     SlidingWindow,
     IncDecComponent,
-    SliderComponent
+    SliderComponent,
+    CounterApp
 } from "./ImportComponents";
 
 import "./routeStyle.css"
@@ -62,6 +63,7 @@ const RouteComponent = () => {
                     <Route path="/context-api/cart" element = {<ContextCart/>} />
                     <Route path="/inc-dec" element = {<IncDecComponent/>} />
                     <Route path="/slider" element = {<SliderComponent/>} />
+                    <Route path="/counter" element = {<CounterApp/>} />
                 </Routes>
             </div>
         </Router>

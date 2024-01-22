@@ -14,7 +14,8 @@ import {
     AddToKart,
     AddToKart1,
     IncDec,
-    sliders
+    sliders,
+    counter
 } from "./ImagesImport";
 import "./style.css"
 
@@ -148,6 +149,15 @@ const IndexPage = () => {
                     tech="HTML, CSS, JS, React"
                     link="/slider"
                     imageSrc={slider}
+                />
+
+                {/* ---------------------------------card -15 */}
+                <CardComponent
+                    name="Counter"
+                    desc=""
+                    tech="HTML, CSS, JS, React"
+                    link="/counter"
+                    imageSrc={counter}
                 />
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css"
 
 class SliderComponent extends React.Component{
-    constructor(){
+    constructor(){                // step : 01
         super()
         this.state = {active : 0,  
             slider_items : [1,2,3], 
@@ -12,7 +12,8 @@ class SliderComponent extends React.Component{
         this.handleClickRight = this.handleClickRight.bind(this)
     }
 
-    componentDidUpdate(prevProps, prevState){
+    componentDidUpdate(prevProps, prevState){    // state: active: 0 to 1(state: current_color: red to red), 1 to 1 (state: current_color: red to green)
+        // this will wait untill setState executes
         console.log('aaa',this.state, prevState)
         if(prevState.active !== this.state.active){
             this.setState({
@@ -46,7 +47,7 @@ class SliderComponent extends React.Component{
         }
     }
 
-    render(){
+    render(){                  // step : 02
         return(
             <>
             <div className="title"> Slider </div>
